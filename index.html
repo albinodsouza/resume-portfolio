@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Albino Dsouza — Full Stack Developer | Portfolio</title>
+  <meta name="description"
+    content="Portfolio of Albino Dsouza — Full Stack Developer specialising in Java Spring Boot, Angular, TypeScript, and Microservices. 3+ years at Sony India Software Centre." />
+  <meta name="keywords"
+    content="Albino Dsouza, Full Stack Developer, Java, Spring Boot, Angular, TypeScript, Microservices, Portfolio" />
+  <meta name="author" content="Albino Dsouza" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+  <!-- ═══════════════════ NAVBAR ═══════════════════ -->
+  <nav class="navbar" id="navbar">
+    <a href="#landing" class="nav-logo"></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#contact" class="nav-cta">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ═══════════════════ PAGE 1 — LANDING ═══════════════════ -->
+  <section id="landing" class="section section-landing">
+    <div class="landing-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+    <div class="container landing-content" style="padding-top: 3rem;">
+      <h1 class="landing-name reveal" data-delay="100">Albino Dsouza</h1>
+      <p class="landing-designation reveal" data-delay="200">Full Stack Developer · Java Spring Boot · Angular ·
+        Microservices</p>
+      <p class="landing-intro reveal" data-delay="300">A results-driven Full Stack Developer with 3+ years of hands-on
+        experience at Sony India Software Centre, building production-grade web applications that scale. I specialise in
+        Angular (TypeScript) frontends and Java Spring Boot microservices, with a strong command of RESTful APIs,
+        JWT-based authentication, and database performance optimisation. From slashing API response times by 35% to
+        automating operational workflows that earned a Spot Award, I deliver engineering that makes a measurable
+        difference. If you're looking for a developer who combines technical depth with collaborative energy and a drive
+        to keep improving — let's connect.</p>
+      <div class="landing-cta reveal" data-delay="400">
+        <a href="#about" class="btn btn-primary">Learn More About Me</a>
+        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      </div>
+      <div class="landing-socials reveal" data-delay="500">
+        <a href="https://github.com/albino-dsouza" target="_blank" rel="noopener" aria-label="GitHub"
+          class="social-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+          </svg>
+        </a>
+        <a href="https://linkedin.com/in/albino-dsouza" target="_blank" rel="noopener" aria-label="LinkedIn"
+          class="social-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+          </svg>
+        </a>
+        <a href="mailto:albinodsouza151@gmail.com" aria-label="Email" class="social-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="4" width="20" height="16" rx="2" />
+            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+          </svg>
+        </a>
+      </div>
+      <div class="scroll-indicator reveal" data-delay="600">
+        <span>Scroll Down</span>
+        <div class="scroll-arrow"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ PAGE 2 — ABOUT ME ═══════════════════ -->
+  <section id="about" class="section section-about">
+    <div class="container">
+      <h2 class="section-title reveal">About Me</h2>
+      <div class="about-grid">
+        <div class="about-image-col reveal" data-delay="100">
+          <div class="about-image-wrapper">
+            <img src="assets/profile.png" alt="Albino Dsouza — Full Stack Developer" class="about-photo" />
+            <div class="about-image-border"></div>
+          </div>
+          <div class="about-quick-links">
+            <span class="quick-link-label">View My Work</span>
+            <div class="quick-link-pills">
+              <a href="#experience" class="pill">Work Experience</a>
+              <a href="#education" class="pill">Education</a>
+              <a href="#projects" class="pill">Projects</a>
+              <a href="#skills" class="pill">Skills</a>
+              <a href="#certifications" class="pill">Certifications</a>
+            </div>
+          </div>
+        </div>
+        <div class="about-text-col">
+          <p class="about-summary reveal" data-delay="200">I'm Albino Dsouza, a Full Stack Developer at Sony India
+            Software Centre in Bengaluru, where I've spent over 3 years building scalable, production-grade systems that
+            power real business outcomes. My core expertise spans Angular (TypeScript) on the frontend and Java Spring
+            Boot microservices on the backend, with deep familiarity in REST API design, JWT authentication,
+            JPA/Hibernate, and query optimisation on OracleDB and MySQL. I hold a Bachelor of Engineering in Electronics
+            and Communication from K.L.E Technological University, which gave me a rigorous technical foundation that I
+            continue to build upon every day. Working within Agile/Scrum teams alongside QA, DevOps, and product
+            stakeholders, I thrive in environments where collaboration and code quality go hand in hand. Beyond shipping
+            features, I actively mentor junior developers and advocate for engineering best practices — because great
+            software is built by great teams. What sets me apart is the combination of full-stack ownership,
+            performance-first thinking, and the drive to automate what slows teams down.</p>
+          <div class="about-mission-vision">
+            <div class="mv-card reveal" data-delay="300">
+              <div class="mv-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="m16 12-4-4-4 4" />
+                  <path d="M12 16V8" />
+                </svg>
+              </div>
+              <h3>Mission</h3>
+              <p>To engineer clean, scalable, and impactful software solutions that solve real problems — while
+                continuously growing as a developer and lifting the teams I work with.</p>
+            </div>
+            <div class="mv-card reveal" data-delay="400">
+              <div class="mv-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z" />
+                  <circle cx="12" cy="12" r="3" />
+                </svg>
+              </div>
+              <h3>Vision</h3>
+              <p>To become a well-rounded software architect who leads high-performing engineering teams and contributes
+                to technology that meaningfully improves how people work and live.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ PAGE 3 — WORK EXPERIENCE ═══════════════════ -->
+  <section id="experience" class="section section-experience">
+    <div class="container">
+      <h2 class="section-title reveal">Work Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item reveal" data-delay="100">
+          <div class="timeline-marker">
+            <div class="timeline-dot"></div>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-card-header">
+              <div class="tc-meta">
+                <span class="tc-duration">August 2022 – Present · 3+ Years</span>
+                <span class="tc-type">Full-time</span>
+              </div>
+              <h3 class="tc-title">Full Stack Developer</h3>
+              <p class="tc-company">Sony India Software Centre (SISC)</p>
+              <p class="tc-location">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+                Bengaluru, India
+              </p>
+            </div>
+            <div class="tc-body">
+              <h4>Key Responsibilities</h4>
+              <ul>
+                <li>Engineered full stack web applications using Angular (TypeScript) on the frontend and Java Spring
+                  Boot microservices on the backend, delivering modular, scalable, and maintainable production systems
+                </li>
+                <li>Designed and implemented RESTful APIs with Spring MVC and Spring Data JPA, integrating JWT-based
+                  authentication to enforce role-based access control across backend and frontend modules</li>
+                <li>Followed a contract-first API approach using OpenAPI 3.0 and Swagger UI for interactive
+                  documentation and testing, reducing frontend-backend integration friction</li>
+                <li>Built reusable Angular components with configurable inputs/outputs and implemented dynamic forms
+                  using Angular Reactive Forms with custom validators, improving frontend development velocity and user
+                  experience</li>
+                <li>Optimised database queries on OracleDB and MySQL through indexing strategies, refined JPA mappings,
+                  and query rewrites — improving API response times by up to 35% under peak load conditions</li>
+                <li>Built an internal automation tool for banner image management that eliminated repetitive manual
+                  effort and improved operational efficiency, recognised with the Sony Spot Award</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ PAGE 4 — EDUCATION ═══════════════════ -->
+  <section id="education" class="section section-education">
+    <div class="container">
+      <h2 class="section-title reveal">Education</h2>
+      <div class="education-cards">
+        <div class="edu-card reveal" data-delay="100">
+          <div class="edu-card-accent"></div>
+          <div class="edu-card-content">
+            <div class="edu-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m4 6 8-4 8 4" />
+                <path d="m18 10 4 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-8l4-2" />
+                <path d="M14 22v-4a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v4" />
+                <path d="M18 5v17" />
+                <path d="M6 5v17" />
+              </svg>
+            </div>
+            <span class="edu-duration">August 2018 – June 2022 · Full-time</span>
+            <h3 class="edu-degree">Bachelor of Engineering in Electronics and Communication</h3>
+            <p class="edu-institution">K.L.E Technological University</p>
+            <p class="edu-location">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+              Hubballi, India
+            </p>
+            <h4>Key Highlights</h4>
+            <ul>
+              <li>Specialised in core electronics and communication engineering with a strong grounding in systems
+                design and signal processing</li>
+              <li>Built foundational skills in programming, data structures, and problem-solving that directly enabled a
+                transition into full-stack software development</li>
+              <li>Completed the degree with a project-focused approach, developing practical experience in
+                hardware-software integration and technical documentation</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ PAGE 5 — PROJECTS ═══════════════════ -->
+  <section id="projects" class="section section-projects">
+    <div class="container">
+      <h2 class="section-title reveal">Projects</h2>
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card reveal" data-delay="100">
+          <div class="project-card-glow"></div>
+          <div class="project-card-inner">
+            <div class="project-header">
+              <div class="project-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 20h9" />
+                  <path
+                    d="M16.376 3.622a1 1 0 0 1 3.002 3.002L7.368 18.635a2 2 0 0 1-.855.506l-2.872.838a.5.5 0 0 1-.62-.62l.838-2.872a2 2 0 0 1 .506-.854z" />
+                </svg>
+              </div>
+              <span class="project-year">2023</span>
+            </div>
+            <span class="project-type">Internal Enterprise Tool · Sony India Software Centre</span>
+            <h3 class="project-title">Banner Management Automation Tool</h3>
+            <p class="project-desc">Designed and built an end-to-end automation tool to streamline the upload and
+              management of background images for banner systems. The tool eliminated a heavily manual, repetitive
+              operational workflow, significantly reducing the time and effort required by operations teams. Recognised
+              with a Sony Spot Award for its measurable impact on efficiency.</p>
+            <h4>Key Outcomes</h4>
+            <ul>
+              <li>Reduced manual effort for banner image uploads by automating the entire pipeline end to end</li>
+              <li>Improved operational efficiency across the banner management workflow, freeing up team bandwidth</li>
+              <li>Recognised with the Sony Spot Award for engineering impact</li>
+              <li>Adopted as a standard internal tool within the team's production operations</li>
+            </ul>
+            <div class="project-tech">
+              <span class="tech-tag">Java</span>
+              <span class="tech-tag">Spring Boot</span>
+              <span class="tech-tag">Angular</span>
+              <span class="tech-tag">TypeScript</span>
+              <span class="tech-tag">REST APIs</span>
+              <span class="tech-tag">OracleDB</span>
+            </div>
+          </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="project-card reveal" data-delay="200">
+          <div class="project-card-glow"></div>
+          <div class="project-card-inner">
+            <div class="project-header">
+              <div class="project-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M3 3v18h18" />
+                  <path d="m19 9-5 5-4-4-3 3" />
+                </svg>
+              </div>
+              <span class="project-year">2023–2024</span>
+            </div>
+            <span class="project-type">Production Web Feature · Sony India Software Centre</span>
+            <h3 class="project-title">Monitoring & Analytics Feature Module</h3>
+            <p class="project-desc">Contributed to the design and implementation of monitoring and analytics features
+              that track user interactions across web pages. The module enabled data-driven decisions by surfacing
+              actionable engagement metrics for content and product teams. Built with a focus on reliability,
+              scalability, and non-intrusive integration into existing production systems.</p>
+            <h4>Key Outcomes</h4>
+            <ul>
+              <li>Enabled data-driven content strategy through real-time user interaction tracking across web pages</li>
+              <li>Improved visibility into user behaviour, directly informing product and engagement decisions</li>
+              <li>Integrated seamlessly into the existing Angular frontend without degrading application performance
+              </li>
+              <li>Delivered within Agile sprint cycles in collaboration with QA and DevOps stakeholders</li>
+            </ul>
+            <div class="project-tech">
+              <span class="tech-tag">Angular</span>
+              <span class="tech-tag">TypeScript</span>
+              <span class="tech-tag">Java</span>
+              <span class="tech-tag">Spring Boot</span>
+              <span class="tech-tag">REST APIs</span>
+              <span class="tech-tag">MySQL</span>
+            </div>
+          </div>
+        </div>
+        <!-- Project 3 -->
+        <div class="project-card reveal" data-delay="300">
+          <div class="project-card-glow"></div>
+          <div class="project-card-inner">
+            <div class="project-header">
+              <div class="project-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect width="18" height="11" x="3" y="11" rx="2" ry="2" />
+                  <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+                </svg>
+              </div>
+              <span class="project-year">2022–2023</span>
+            </div>
+            <span class="project-type">Backend Security Module · Sony India Software Centre</span>
+            <h3 class="project-title">Role-Based Access Control System</h3>
+            <p class="project-desc">Designed and implemented a JWT-based authentication and role-based access control
+              (RBAC) system integrated across backend microservices and Angular frontend modules. The solution secured
+              sensitive business-critical data by enforcing granular access policies tied to user roles. Built using
+              Spring Security with Spring MVC and Spring Data JPA, following a contract-first API design approach with
+              OpenAPI 3.0.</p>
+            <h4>Key Outcomes</h4>
+            <ul>
+              <li>Secured access to business-critical data across all backend and frontend modules using JWT and RBAC
+              </li>
+              <li>Reduced integration friction between frontend and backend teams through OpenAPI 3.0 / Swagger UI
+                documentation</li>
+              <li>Delivered a robust, maintainable auth layer that scaled across multiple microservices</li>
+              <li>Established a reusable security pattern adopted across subsequent product modules</li>
+            </ul>
+            <div class="project-tech">
+              <span class="tech-tag">Java</span>
+              <span class="tech-tag">Spring Boot</span>
+              <span class="tech-tag">Spring Security</span>
+              <span class="tech-tag">JWT</span>
+              <span class="tech-tag">Angular</span>
+              <span class="tech-tag">TypeScript</span>
+              <span class="tech-tag">OpenAPI 3.0</span>
+              <span class="tech-tag">Swagger</span>
+              <span class="tech-tag">OracleDB</span>
+              <span class="tech-tag">JPA/Hibernate</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ PAGE 6 — SKILLS ═══════════════════ -->
+  <section id="skills" class="section section-skills">
+    <div class="container">
+      <h2 class="section-title reveal">Skills</h2>
+      <div class="skills-grid">
+        <!-- Frontend -->
+        <div class="skill-category reveal" data-delay="100">
+          <div class="skill-cat-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="16 18 22 12 16 6" />
+              <polyline points="8 6 2 12 8 18" />
+            </svg>
+          </div>
+          <h3>Frontend Development</h3>
+          <div class="skill-item">
+            <div class="skill-info"><span>Angular (TypeScript)</span><span>90%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-percent="90"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>HTML & CSS</span><span>88%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-percent="88"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>Angular Reactive Forms</span><span>85%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-percent="85"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>Component Architecture</span><span>85%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-percent="85"></div>
+            </div>
+          </div>
+        </div>
+        <!-- Backend -->
+        <div class="skill-category reveal" data-delay="200">
+          <div class="skill-cat-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect width="20" height="8" x="2" y="2" rx="2" ry="2" />
+              <rect width="20" height="8" x="2" y="14" rx="2" ry="2" />
+              <line x1="6" x2="6.01" y1="6" y2="6" />
+              <line x1="6" x2="6.01" y1="18" y2="18" />
+            </svg>
+          </div>
+          <h3>Backend Development</h3>
+          <div class="skill-item">
+            <div class="skill-info"><span>Java</span><span>92%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-percent="92"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>Spring Boot</span><span>90%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-percent="90"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>Spring MVC / Spring Data JPA</span><span>88%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-percent="88"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>Hibernate</span><span>85%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-percent="85"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>RESTful API Design</span><span>90%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-percent="90"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>JWT Authentication</span><span>85%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-percent="85"></div>
+            </div>
+          </div>
+        </div>
+        <!-- Databases -->
+        <div class="skill-category reveal" data-delay="300">
+          <div class="skill-cat-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <ellipse cx="12" cy="5" rx="9" ry="3" />
+              <path d="M3 5V19A9 3 0 0 0 21 19V5" />
+              <path d="M3 12A9 3 0 0 0 21 12" />
+            </svg>
+          </div>
+          <h3>Databases</h3>
+          <div class="skill-item">
+            <div class="skill-info"><span>OracleDB</span><span>85%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-percent="85"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>MySQL</span><span>83%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-percent="83"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>MongoDB</span><span>75%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-percent="75"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>Redis</span><span>72%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-percent="72"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>Snowflake</span><span>70%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-percent="70"></div>
+            </div>
+          </div>
+        </div>
+        <!-- DevTools -->
+        <div class="skill-category reveal" data-delay="400">
+          <div class="skill-cat-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+            </svg>
+          </div>
+          <h3>DevTools & Platforms</h3>
+          <div class="skill-item">
+            <div class="skill-info"><span>Git & GitHub</span><span>88%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-percent="88"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>Postman</span><span>87%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-percent="87"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>Swagger / OpenAPI</span><span>85%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-percent="85"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>IntelliJ IDEA</span><span>88%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-percent="88"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>Jira</span><span>82%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-percent="82"></div>
+            </div>
+          </div>
+        </div>
+        <!-- Methodologies -->
+        <div class="skill-category reveal" data-delay="500">
+          <div class="skill-cat-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+              <circle cx="9" cy="7" r="4" />
+              <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+              <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+            </svg>
+          </div>
+          <h3>Methodologies & Practices</h3>
+          <div class="skill-item">
+            <div class="skill-info"><span>Agile / Scrum</span><span>90%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-percent="90"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>SDLC</span><span>88%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-percent="88"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>Code Review & Mentoring</span><span>85%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-percent="85"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>Performance Optimisation</span><span>85%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-percent="85"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ PAGE 7 — CERTIFICATIONS ═══════════════════ -->
+  <section id="certifications" class="section section-certifications">
+    <div class="container">
+      <h2 class="section-title reveal">Certifications</h2>
+      <div class="cert-grid">
+        <div class="cert-card reveal" data-delay="100">
+          <div class="cert-image">
+            <img src="assets/snowflake-cert.png" alt="SnowPro Associate: Platform — Snowflake Certification" />
+          </div>
+          <div class="cert-details">
+            <span class="cert-provider">Snowflake</span>
+            <h3 class="cert-name">SnowPro Associate: Platform</h3>
+            <p class="cert-meta">Issued: March 23, 2026 · Expires: March 23, 2028</p>
+            <p class="cert-id">Certification ID: S143000-260323-SOL</p>
+          </div>
+        </div>
+        <div class="cert-card reveal" data-delay="200">
+          <div class="cert-image">
+            <img src="assets/aws-cert.png" alt="AWS Certified Cloud Practitioner" />
+          </div>
+          <div class="cert-details">
+            <span class="cert-provider cert-provider-aws">Amazon Web Services</span>
+            <h3 class="cert-name">AWS Certified Cloud Practitioner</h3>
+            <p class="cert-meta">Issued: March 2, 2024 · Expires: March 2, 2027</p>
+            <p class="cert-id">Validation: a7efc547d5f046b68af5f19f33416281</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ PAGE 8 — ACHIEVEMENTS ═══════════════════ -->
+  <section id="achievements" class="section section-achievements">
+    <div class="container">
+      <h2 class="section-title reveal">Achievements & Recognition</h2>
+      <p class="section-subtitle reveal" data-delay="50">Milestones earned through engineering impact, teamwork, and a
+        drive to go beyond the brief.</p>
+      <!-- Stats -->
+      <div class="stats-row reveal" data-delay="100">
+        <div class="stat-counter">
+          <span class="stat-number" data-target="3">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Years Experience</span>
+        </div>
+        <div class="stat-counter">
+          <span class="stat-number" data-target="2">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Certifications</span>
+        </div>
+        <div class="stat-counter">
+          <span class="stat-number" data-target="3">0</span>
+          <span class="stat-label">Projects</span>
+        </div>
+        <div class="stat-counter">
+          <span class="stat-number" data-target="2">0</span>
+          <span class="stat-label">Awards</span>
+        </div>
+      </div>
+      <!-- Achievement Cards -->
+      <div class="achievement-cards">
+        <div class="ach-card reveal" data-delay="200">
+          <div class="ach-badge">Professional</div>
+          <div class="ach-year">2023</div>
+          <h3 class="ach-title">Spot Award</h3>
+          <p class="ach-institution">Sony India Software Centre</p>
+          <p class="ach-desc">Recognised by Sony India for developing an internal automation tool that transformed the
+            banner image management process. The tool eliminated significant manual effort, improved operational
+            efficiency, and was adopted as a standard part of the team's production workflow.</p>
+        </div>
+        <div class="ach-card reveal" data-delay="300">
+          <div class="ach-badge">Professional</div>
+          <div class="ach-year">2024</div>
+          <h3 class="ach-title">Cultural Event Winner — Sony Business Meet</h3>
+          <p class="ach-institution">Sony India Annual Business Meet</p>
+          <p class="ach-desc">Won a cultural event at Sony India's Annual Business Meet, demonstrating strong team
+            spirit, cross-functional collaboration, and the ability to connect with colleagues beyond the day-to-day
+            engineering context.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ PAGE 9 — CONTACT ═══════════════════ -->
+  <section id="contact" class="section section-contact">
+    <div class="container">
+      <h2 class="section-title reveal">Let's Build Something Great Together</h2>
+      <div class="contact-grid">
+        <!-- Left Column — Form -->
+        <div class="contact-form-card reveal" data-delay="100">
+          <h3>Send Me a Message</h3>
+          <form id="contactForm" class="contact-form">
+            <div class="form-group">
+              <input type="text" id="contactName" name="name" required autocomplete="name" />
+              <label for="contactName">Full Name</label>
+              <div class="form-underline"></div>
+            </div>
+            <div class="form-group">
+              <input type="email" id="contactEmail" name="email" required autocomplete="email" />
+              <label for="contactEmail">Email Address</label>
+              <div class="form-underline"></div>
+            </div>
+            <div class="form-group">
+              <input type="text" id="contactSubject" name="subject" required />
+              <label for="contactSubject">Subject</label>
+              <div class="form-underline"></div>
+            </div>
+            <div class="form-group">
+              <textarea id="contactMessage" name="message" rows="5" required></textarea>
+              <label for="contactMessage">Message</label>
+              <div class="form-underline"></div>
+            </div>
+            <button type="submit" class="btn btn-primary btn-send" id="sendBtn">
+              <span>Send Message</span>
+              <div class="btn-shimmer"></div>
+            </button>
+          </form>
+        </div>
+        <!-- Right Column — Info -->
+        <div class="contact-info-panel reveal" data-delay="200">
+          <h3>Let's Talk</h3>
+          <p class="contact-info-intro">I'm always open to discussing new opportunities, ideas, or ways to collaborate.
+            Feel free to reach out through any of the channels below.</p>
+          <div class="contact-row">
+            <div class="contact-row-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="4" width="20" height="16" rx="2" />
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+              </svg>
+            </div>
+            <div>
+              <span class="contact-row-label">Email</span>
+              <a href="mailto:albinodsouza151@gmail.com">albinodsouza151@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-row">
+            <div class="contact-row-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+              </svg>
+            </div>
+            <div>
+              <span class="contact-row-label">Phone</span>
+              <a href="tel:+918971825456">+91-8971825456</a>
+            </div>
+          </div>
+          <div class="contact-row">
+            <div class="contact-row-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+            </div>
+            <div>
+              <span class="contact-row-label">Location</span>
+              <span>Bengaluru, India</span>
+            </div>
+          </div>
+          <div class="contact-socials">
+            <a href="https://linkedin.com/in/albino-dsouza" target="_blank" rel="noopener" class="contact-social-link"
+              aria-label="LinkedIn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+              </svg>
+            </a>
+            <a href="https://github.com/albino-dsouza" target="_blank" rel="noopener" class="contact-social-link"
+              aria-label="GitHub">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ FOOTER ═══════════════════ -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <span class="footer-name">Albino Dsouza</span>
+        <p class="footer-tagline">Engineering clean code, scalable systems, and solutions that make a difference.</p>
+      </div>
+      <div class="footer-socials">
+        <a href="https://github.com/albino-dsouza" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+          </svg>
+        </a>
+        <a href="https://linkedin.com/in/albino-dsouza" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+          </svg>
+        </a>
+        <a href="mailto:albinodsouza151@gmail.com" aria-label="Email">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="4" width="20" height="16" rx="2" />
+            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+          </svg>
+        </a>
+      </div>
+      <p class="footer-copy">&copy; 2025 Albino Dsouza. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
